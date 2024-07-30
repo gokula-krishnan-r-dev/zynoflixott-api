@@ -21,6 +21,8 @@ const AdsCard = () => {
 
   if (isLoading) return <Loading />;
 
+  if (error) return <div>Something went wrong</div>;
+
   return (
     <div>
       <Link href={data?.[0]?.link} className="">
@@ -29,7 +31,7 @@ const AdsCard = () => {
           playsInline
           autoPlay
           loop
-          poster={data[0]?.video}
+          poster={data?.[0]?.video}
           muted
           width="320"
           className="w-full h-[350px] rounded-3xl object-cover"
