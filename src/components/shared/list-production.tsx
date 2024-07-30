@@ -87,7 +87,7 @@ const ListProduction: React.FC = () => {
                   <Link href={"/production/" + company._id} className="">
                     <div className="flex items-center gap-8 ">
                       <div className=" relative w-full z-20">
-                        <div className="bg-green-500 w-4 h-4 rounded-full z-50 absolute top-2 right-6" />
+                        <div className="bg-red-500 w-4 h-4 rounded-full z-50 absolute top-1 right-5" />
                         <Image
                           width={220}
                           height={220}

@@ -25,7 +25,7 @@ const AdsCard = () => {
 
   return (
     <div>
-      <Link href={data?.[0]?.link} className="">
+      <a href={data?.[0]?.link} className="">
         <video
           preload="auto"
           playsInline
@@ -41,7 +41,7 @@ const AdsCard = () => {
           <source src={data[0]?.video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </Link>
+      </a>
     </div>
   );
 };
