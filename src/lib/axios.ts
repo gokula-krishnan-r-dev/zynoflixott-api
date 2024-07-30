@@ -7,10 +7,10 @@ dotenv.config();
 
 console.log(process.env.NEXT_PUBLIC_API_URL, "api");
 
-const SERVER = "http://13.232.78.230:8080";
+const SERVER = "https://api.zynoflixott.com";
 
 // const SERVER = "http://65.0.55.141:8080";
-// const SERVER = "http://localhost:8080"
+// const SERVER = "http://localhost:8080";
 
 const axios = Axios.create({
   baseURL: `${SERVER}/api`,
