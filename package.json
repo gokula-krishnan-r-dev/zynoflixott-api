@@ -25,6 +25,7 @@
     "dotenv-cli": "^7.4.2",
     "embla-carousel-react": "^8.1.5",
     "framer-motion": "^11.2.11",
+    "global": "^4.4.0",
     "lucide-react": "^0.390.0",
     "media-icons": "^1.1.4",
     "next": "14.2.3",
@@ -38,6 +39,7 @@
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.1",
+    "vercel": "^35.2.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
